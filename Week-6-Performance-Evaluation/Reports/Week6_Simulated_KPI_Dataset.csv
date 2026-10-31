@@ -1,0 +1,7 @@
+Week,Leads_Received,Leads_Assigned_Within_30_Min,Cases_Closed,Cases_Within_SLA,Records_Audited,Complete_Records,Duplicate_Records,Training_Users,Training_Completed
+1,120,84,90,68,100,78,9,25,17
+2,128,96,94,75,100,82,8,25,19
+3,135,108,98,82,100,86,6,25,21
+4,142,121,105,92,100,90,5,25,23
+5,150,132,110,99,100,93,4,25,24
+6,158,145,116,108,100,95,3,25,25
