@@ -1,0 +1,9 @@
+Test_ID,Object,Scenario,Input,Expected_Result,Status
+W4-T01,Lead,Partner lead,"Source=Partner; Region=South",Partner Sales Queue,Simulated-Pass
+W4-T02,Lead,Enterprise lead,"Source=Web; Employees=650; Region=South",Enterprise Sales Queue,Simulated-Pass
+W4-T03,Lead,SMB lead,"Source=Web; Employees=80; Region=South",SMB Sales Queue,Simulated-Pass
+W4-T04,Lead,Missing routing data,"Source=Web; Region blank",Data Quality Queue,Simulated-Pass
+W4-T05,Case,Critical incident,"Severity=Critical",Priority Support Queue + manager notification,Simulated-Pass
+W4-T06,Case,High incident,"Severity=High",Tier 2 Queue,Simulated-Pass
+W4-T07,Case,Normal incident,"Severity=Normal",Tier 1 Queue,Simulated-Pass
+W4-T08,Case,Assignment failure,"Simulated assignment error",Operations Review Queue + admin notification,Simulated-Pass
