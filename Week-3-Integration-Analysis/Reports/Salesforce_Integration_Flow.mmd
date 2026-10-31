@@ -1,0 +1,10 @@
+flowchart LR
+ CRM[Salesforce CRM: Leads, Accounts, Opportunities, Cases] -->|Closed-Won order; eligible audience| IP[Middleware / iPaaS: OAuth, mapping, validation, external-ID upsert, retry]
+ IP -->|Validated order create| ERP[ERP: SAP S/4HANA example]
+ ERP -->|Order acknowledgement / shipment status| IP
+ IP -->|Order and shipment summary| CRM
+ IP -->|Consent-approved audience| MKT[Marketing automation]
+ MKT -->|Engagement / preference changes| IP
+ IP -->|Campaign context / suppression status| CRM
+ IP --> OBS[Operations: correlation IDs, monitoring, reconciliation, dead-letter queue]
+ OBS -->|Approved repair and replay| IP
