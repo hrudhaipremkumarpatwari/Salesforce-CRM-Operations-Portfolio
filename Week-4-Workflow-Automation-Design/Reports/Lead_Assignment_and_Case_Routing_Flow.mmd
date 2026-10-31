@@ -1,0 +1,26 @@
+flowchart TD
+A[Record created or updated] --> B{Object}
+B -->|Lead| C{Country / region present?}
+C -->|No| D[Route to Data Quality Queue]
+C -->|Yes| E{Lead source = Partner?}
+E -->|Yes| F[Assign Partner Sales Queue]
+E -->|No| G{Employee count >= 250?}
+G -->|Yes| H[Assign Enterprise Sales Queue]
+G -->|No| I[Assign SMB Sales Queue]
+B -->|Case| J{Severity}
+J -->|Critical| K[Assign Priority Support Queue]
+J -->|High| L[Assign Tier 2 Queue]
+J -->|Normal / Low| M[Assign Tier 1 Queue]
+D --> N[Log routing reason]
+F --> N
+H --> N
+I --> N
+K --> O[Notify duty manager]
+L --> N
+M --> N
+O --> N
+N --> P{Assignment succeeded?}
+P -->|Yes| Q[End]
+P -->|No| R[Fault path: Operations Review Queue]
+R --> S[Capture error + notify admin]
+S --> Q
