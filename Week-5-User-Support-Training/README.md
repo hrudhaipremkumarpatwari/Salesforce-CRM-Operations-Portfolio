@@ -1,30 +1,26 @@
 # Week 5 — Salesforce User Support and Training Guide
 
 ## Project overview
+This project develops concise, role-aware Salesforce learning and support material for sales, service, operations, and support users.
 
-Create role-aware learning material for common CRM tasks, navigation, record updates, reporting, and basic issue resolution.
+> **Training and simulation scope:** All examples are educational. No private/live Salesforce org screenshots, customer data, or production configuration are represented.
 
-> **Project type:** Educational assignment and functional learning exercise  
-> **Environment:** Training scenario; simulated materials only
+## Resubmission focus
+The earlier submission needed more specific diagrams/screenshots/configuration detail and less repetition. This revision separates role-based procedures from quick-reference troubleshooting, adds explicit step sequences and a support-triage flow, and avoids presenting illustrative guidance as live configuration evidence.
 
-## Planned deliverables
+## Deliverables
+- [Role-based user guide](Reports/Week5_Role_Based_User_Guide.md)
+- [Quick reference, FAQ and troubleshooting guide](Reports/Week5_Quick_Reference_FAQ_and_Troubleshooting.md)
+- [Original user support and training report (DOCX)](Reports/Week5_User_Support_and_Training_Guide.docx)
 
-- User guide (.docx) and PDF companion
-- Quick-reference sheet
-- FAQs and troubleshooting guidance
-- Practice checklist
-- Clearly marked illustrative visuals where needed
+## Coverage
+The guide includes lead updates, case handling, data-quality review, administrator/support triage, duplicate awareness, reporting checks, escalation content, and fictional practice exercises.
 
-## Scope and evidence boundary
-
-Training content is educational. Screen examples are mock-ups or public product references, not screenshots from a private or live user org.
-
-Any quantitative examples added here must identify their source or be explicitly labeled **simulated training data**. Proposed designs must not be described as deployed functionality. Cite public references for Salesforce product behavior and best practices, and exclude personal, customer, or proprietary information.
+## Evidence boundary
+Navigation/configuration descriptions are functional training guidance, not proof of hands-on administration in a live Salesforce org. Any future screenshots should be either clearly marked mock-ups or captured only from an authorized training environment.
 
 ## Portfolio connection
-
-This week is part of the [Salesforce CRM Operations Learning Portfolio](../README.md). The other weekly projects are linked in the portfolio roadmap.
+Part of the [Salesforce CRM Operations Learning Portfolio](../README.md).
 
 ## Author
-
 Hrudhai Prem Kumar Patwari
