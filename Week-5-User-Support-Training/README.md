@@ -13,6 +13,9 @@ The earlier submission needed more specific diagrams/screenshots/configuration d
 - [Quick reference, FAQ and troubleshooting guide](Reports/Week5_Quick_Reference_FAQ_and_Troubleshooting.md)
 - [Original user support and training report (DOCX)](Reports/Week5_User_Support_and_Training_Guide.docx)
 
+## Final report
+- [Comprehensive Week 5 user support and training report (Markdown)](Reports/Week5_Final_User_Support_and_Training_Report.md)
+
 ## Coverage
 The guide includes lead updates, case handling, data-quality review, administrator/support triage, duplicate awareness, reporting checks, escalation content, and fictional practice exercises.
 
