@@ -14,6 +14,9 @@ No evaluator score/comments were supplied for Week 6, so this revision does not 
 - [Performance dashboard and chart specification](Reports/Week6_Dashboard_Specification.md)
 - [Original performance evaluation report (DOCX)](Reports/Week6_Performance_Evaluation_and_Improvement.docx)
 
+## Final report
+- [Comprehensive Week 6 performance evaluation and improvement report (Markdown)](Reports/Week6_Final_Performance_Evaluation_and_Improvement_Report.md)
+
 ## KPI set
 Lead assignment timeliness, case SLA attainment, record completeness, duplicate rate, and training completion are calculated using transparent formulas. Week 1–6 changes are shown as simulated analytical examples.
 
