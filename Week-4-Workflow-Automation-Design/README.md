@@ -14,6 +14,10 @@ The earlier submission needed stronger visual evidence, deeper analysis, and con
 - [Implementation, controls and rollback plan](Reports/Week4_Implementation_and_Rollback_Plan.md)
 - [Original workflow automation report (DOCX)](Reports/Week4_Workflow_Automation_Design.docx)
 
+## Final report
+
+- [Comprehensive Week 4 workflow automation design report (Markdown)](Reports/Week4_Final_Workflow_Automation_Design_Report.md)
+
 ## Proposed design
 Leads are routed by required routing data, source, and employee band. Cases are routed by severity. Missing data and simulated assignment failures follow explicit review/fault paths instead of silently failing.
 
